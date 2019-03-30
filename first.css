@@ -1,0 +1,29 @@
+
+.container {
+    height: 100vh;
+    margin-bottom: 3em;
+    display: flex;
+    transition: linear 1s background-color;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+}
+.right{
+    margin: 2em;
+    width: 50%;
+}
+h1{
+    font-family: 'Roboto', sans-serif;    color: #007FAD;
+
+}
+.right h4 {
+    font-family: 'Roboto', sans-serif;    color: gray;
+}
+
+h1 i{
+    color: gray;
+    opacity: 0.5;
+}
+

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Robot-light;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Robot-Regural;
+    src: url(fonts/Roboto-Regural.ttf);
+}
+
+.container {
+    height: 100%;
+    margin-bottom: 3em;
+    display: flex;
+    /* transition: linear 1s background-color; */
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+
+}
+
+.header {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.rates {
+    display: flex;
+    flex-direction: row;
+    margin: center;
+   
+
+}
+.first , .third {
+    margin-left: 2em;
+    margin-bottom: 6em;
+}
+.second , .forth{
+   
+    margin-left: 2em;
+    margin-top: 6em;
+}
+.line{
+    margin-left: 10em;
+    width: 1px;
+    background-color: rgba(139, 134, 134, 0.801);
+    margin-top:5em;
+}
+.line1{
+    margin-left: 10em;
+    width: 1px;
+    background-color: rgba(139, 134, 134, 0.801);
+}
+p{
+    color: rgba(139, 134, 134, 0.801);
+
+}
+h3{
+    color:  #007FAD;
+}
+.icon{
+    display: flex;
+}
+
+.ico{
+    margin-left:7em;
+    margin-right:5em;
+}
+
+.icon h3{
+    color: rgba(139, 134, 134, 0.801);
+
+}
+
+.icon p{
+    margin-left: 1em;
+    color:  #007FAD;
+
+
+}
