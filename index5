@@ -1,0 +1,161 @@
+<html>
+
+<head>
+    <title>slide 5</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <style>
+        	#line{
+		width: 1px;
+		height:180px;
+		background-color: #757575; 
+	}
+
+    h5{
+		color: #007fad;
+	}
+    
+    #syy{
+        color: #757575;
+    }
+    
+    .container{
+		font-family: 'Roboto', sans-serif;
+
+
+	}
+
+    #tri{
+        color:#007fad;
+        padding-top: 50px ;
+
+    }
+
+    p{
+        font-size: 13px;
+    }
+    
+    #line2{
+        width: 1px;
+		height:50px;
+		background-color: #757575;
+        margin-left: 60px;
+        
+    }
+
+    #icon{
+        width: 35px;
+        height: 35px;
+        
+    }
+
+    #pad{
+        padding-left: 100px;
+    }
+
+
+    div.relative{
+      position: relative;
+    }
+
+    div.absolute {
+  position: absolute;
+  top: 200px;
+  left: 320px;
+  
+}
+    </style>
+
+</head>
+
+<body>
+
+     <div class="row">
+         <div class="relative">
+            
+             <img src="img/contact.jpg" width="100%">
+        </div>
+            
+     </div> 
+
+     <div class="row">
+      <div class="absolute">
+         
+          <img src="img/press.png" width="300px" height="60px">
+     </div>
+         
+  </div> 
+
+
+     
+<div class="container">
+        <div class="row">
+          
+          <div class="col-md-9" >
+            <div >
+               
+                    <div class="card-body">
+                      <h5 class="card-title" id="tri"> <a href="#" > www.trivago.com/press</a> </h5>
+                      
+                    </div>
+
+                    <div class="row" id="pad">
+                        <div class="col-md-3">
+                            <p> <img src="img/icons/telephone.svg"  alt="..." id="icon"> +49 (0)211 540 650 </p>
+
+                        </div>
+
+                        <div id="line2" >
+
+                        </div>
+                        <div class="col-md-3" >
+                                <p> <img src="img/icons/briefcase.svg"  alt="..." id="icon">Monday-Friday <br> 10am-6pm </p>
+    
+                         </div>
+
+                         <div id="line2">
+
+                         </div>
+                         <div class="col-md-2">
+                                    <p> <img src="img/icons/icn_contact_line_dark.svg"  alt="..." id="icon"> E-mail Us </p>
+        
+                         </div>
+
+                    </div>
+            </div>
+          </div>
+      
+          
+          <div id="line" >
+            
+          </div>
+          
+          <div class="col-md-2">
+            <div >
+                
+                    <div class="card-body">
+                      <h5 class="card-title">trivago
+                        Communications
+                        Contact Info</h5>
+                          <a href="#" id="syy">sydney.burdick@trivago.com </a>
+                          <a href="#" id="syy">mike.staal@trivago.com </a>
+
+
+                      
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+</html>
