@@ -1,0 +1,145 @@
+<html>
+
+<head>
+  <title> slide 4</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <style>
+    .container {
+      font-family: 'Roboto', sans-serif;
+
+    }
+
+    #line {
+      width: 1px;
+      height: 130px;
+      background-color: #757575;
+      margin-top: 50px;
+    }
+
+    h4 {
+      color: #007fad;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    #line2 {
+      width: 1px;
+      height: 150px;
+      background-color: #757575;
+      margin-bottom: 50px;
+    }
+
+
+    #p2{
+      height: 360px ;
+    }
+
+    #ppp{
+      margin-top: 2px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+
+      </div>
+      <div id="line">
+
+      </div>
+
+      <div class="col-md-8">
+        <div>
+
+          <div class="card-body">
+            <h4 class="card-title"> Reputation Ranking </h4>
+            <p class="card-text">The Reputation Ranking is an annually-published list showcasing the cities which have
+              the best hotel
+              reputations - either worldwide or in specific countries. Reputation Ranking releases can also be sent out
+              during the summer and winter months with a sole focus on holiday destinations.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-6">
+        <img src="img/italy.jpg" width="100%">
+    </div>
+
+    <div class="col-md-3" id="p2">
+        <img src="img/germany.jpg" width="100%" height="50%" >
+        <img src="img/poland.jpg" width="100%" height="50%" id="ppp">
+    </div>
+
+    <div class="col-md-3" id="p2">
+        <img src="img/croatia.jpg" width="100%" height="33%" >
+        <img src="img/cambodia.jpg" width="100%" height="33%" id="ppp">
+        <img src="img/poland2.jpg" width="100%" height="33%" id="ppp">
+    </div>
+
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+
+      </div>
+      <div id="line2">
+
+      </div>
+
+      <div class="col-md-8">
+        <div>
+
+          <div class="card-body">
+            <h4 class="card-title"> <img src="img/icons/icn_trv_icon_coloured.svg" alt="..."> HPI (Hotel Price Index)
+            </h4>
+            <p class="card-text">The trivago Hotel Price Index is released monthly and forecasts
+              the average hotel prices of major European, North American,
+              South American and Asian cities. It shows the average overnight
+              accommodation prices based on a double standard room.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+</body>
+
+
+
+</html>
